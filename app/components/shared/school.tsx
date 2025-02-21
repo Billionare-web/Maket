@@ -25,7 +25,7 @@ function School() {
         Createx School Journal
       </h1>
 
-      <div className="flex justify-center justify-between mt-4">
+      <div className="flex justify-center mt-4">
         <div className="flex gap-2 mt-2">
           <button
             className={`w-16 h-12 bg-white border-none font-bold text-base transition duration-500 ${
