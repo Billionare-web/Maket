@@ -1,12 +1,16 @@
-import React from 'react'
-import Home from './components/shared/home'
+"use client";
+import AddQuote from "@/app/components/AddQuote";
+import QuoteList from "@/app/components/QuoteList";
 
-function Page() {
+export default function Home() {
   return (
-    <div>
-      <Home />
-    </div>
-  )
-}
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold text-center">
+        ✨ Motivatsion Iqtiboslar ✨
+      </h1>
 
-export default Page
+      <AddQuote />
+      <QuoteList />
+    </div>
+  );
+}
