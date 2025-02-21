@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from './header'
-import GetInTouch from './getInTouch'
+import School from './school'
+import Footer from './footer'
 
 function Home() {
   return (
-    <div className='px-32'>
+    <div>
+      <div className='px-32'>
         <Header />
-        <GetInTouch />
+        <School />
+      </div>
+      <Footer />
     </div>
   )
 }

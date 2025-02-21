@@ -1,12 +1,13 @@
 import React from 'react';
 import Logo from '@/app/components/imgs/logo.png';
 import { IoPersonOutline } from "react-icons/io5";
+import Image from 'next/image';
 
 function Header() {
     return (
         <div className='flex justify-between items-center'>
             <div className="flex gap-10">
-                <img src={Logo} alt='' />
+                <Image src={Logo} alt='' />
                 <ul className='flex gap-3 items-center'>
                     <li>About Us</li>
                     <li>Courses</li>
